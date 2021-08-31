@@ -1,0 +1,82 @@
+
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+/*================================
+
+Universal Styling
+
+*================================*/
+
+#container {
+	margin: auto;
+}
+
+@font-face {
+  font-family: 'Rock Salt', cursive;
+  src: url('fonts/RockSalt-Regular.ttf') format('truetype');
+  font-family: 'Permanent Marker', cursive;
+  src: url('fonts/PermanentMarker-Regular.ttf') format('truetype');
+
+}
+
+/*=====================================
+
+Header Styling
+
+*======================================*/
+/*====================================
+
+Main Body Style
+
+*===================================*/
+
+
+/*------Media Queries-----------*/
+
+/*--------------------Start of 320px Media Query------------------*/
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+
+}
+/*--------------------End of 320px Media Query------------------*/
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+
+}
+
+/*--------------------Start of 825px Media Query------------------*/
+
+@media (min-width: 825px) {
+	main {
+		min-height: 590px;
+	}
+}
+
+/*--------------------End of 825px Media Query------------------*/
+
+/*--------------------Start of 1000px Media Query------------------*/
+@media (min-width: 1000px) {
+
+#container {
+	width: 960px;
+}
+
+
+/* ---------Desktop Nav Styles--------- */
+
+
+
+  /* --------End Desktop Nav Styles----------- */
+  /* --------Desktop Body Styles----------- */
