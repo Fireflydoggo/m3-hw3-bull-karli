@@ -42,13 +42,15 @@
 @black: #080801;
 
 .hero-image {
-    background-image: url(/img/banner-bg.png);
+   
     background-position: center;
     background-color: #3b3838; opacity: 33%;
-    overflow: hidden;
-    width: 100vw;
-    height: 400px;
+    width: 98vw;
+    height: 490px;
+    display: inline-flex;
 }
+
+.hero {}
 
 
 .btn {
@@ -59,6 +61,18 @@
     background-color: @yellow;
     border: none;
     border-radius: 7%;
+}
+
+.btn1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1% 2%;
+    background-color: @yellow;
+    border: none;
+    border-radius: 7%;
+    display: flex;
+    align-content: center;
 }
 
 .btn-primary {
@@ -77,15 +91,6 @@
     color: @red;
 }
 
-.bob {
-    background-color: @white;
-    padding-left: 15%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border-bottom: 15px solid @yellow;
-    display: inline-flex;
-}
-
 .burger {
     padding-left: 10%;
     padding-top: 3%;
@@ -95,4 +100,13 @@
 
 .food {
     padding-right: 7%;
+}
+
+.bob {
+    background-color: @white;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 15px solid @yellow;
+    display: inline-flex;
 }
