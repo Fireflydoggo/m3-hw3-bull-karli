@@ -15,10 +15,6 @@ header {
     background-color: @yellow;
     justify-content: space-between;
 
-    .mobile-logo {
-        margin: 0 auto;
-    }
-
     nav {
         background-color: @yellow;
         padding: 2%;
@@ -40,10 +36,8 @@ header {
          }
         
     }
-            img {
-            width: 350px;
-        }
-    }
+         
+}
 
         @media (min-width: 992px) {
             header {
@@ -51,29 +45,6 @@ header {
                 margin: 0 auto;
             }
 
-            .logo-hide {
-                display: block;
-            }
-
-            .navbar-expand-lg .navbar-collapse {
-                display: flex!important;
-                flex-basis: auto;
-                justify-content: center;
-                }
-
-                .navbar-nav {
-                    display: flex;
-                    justify-content: center;
-                    align-items: flex-end;
-                }
-
-                .nav-item {
-                    padding: 0 30px;
-                }
-
-                .mobile-logo a {
-                    display: none;
-            }
         }
 
 .legacy {
@@ -81,16 +52,7 @@ header {
     .hero-image();
 }
 
-    .container-fluid {
-        .content {
-            width: 80%;
-            margin: 0 auto;
-        }
-
         .row{
-            img {
-                width: 500px;
-            }
             button {
                 .btn-primary();
                 .btn();
@@ -100,41 +62,24 @@ header {
                 .btn-primary-hover();
             }
         }
-    }
-    .container2 {
-        background-color: @black;
-        color: @white;
-    }
+
+        .div {
+            .bun {
+                display: inline-flex;
+                justify-content: right;
+            }
+        }
+   
 }
+
 
 footer {
     background-color: @black;
 
-    .row {
-        justify-content: center;
-
-        a {
-            .small-text-style();
-            color: @black;
-            text-decoration: none;
-            font-weight: 600;
-        }
+    img {
+        width: 30%;
+        padding: 3%;
     }
 
 }
 
-
-// about page styling
-.about-main {
-    max-width: 90vw;
-    margin: auto;
-    padding: 4% 0;
-
-    p {
-        padding: 3% 0;
-    }
-
-    .card {
-        border-radius: 0.1rem;
-    }
-}
